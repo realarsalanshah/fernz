@@ -36,6 +36,18 @@ body {
   width: 100%;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 0 15px;
+  }
+}
+
 /* line 11, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_reset.scss */
 .img {
   max-width: 100%;
