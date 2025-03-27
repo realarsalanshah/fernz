@@ -33,6 +33,7 @@ body {
   font-style: normal;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   max-width: 100%;
+  width: 100%;
 }
 
 /* line 11, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_reset.scss */
