@@ -36,16 +36,30 @@ body {
   width: 100%;
 }
 
-.container {
+.container, .row {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
   .container {
       padding: 0 15px;
   }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
 }
 
 /* line 11, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_reset.scss */
